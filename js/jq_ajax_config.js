@@ -1,5 +1,6 @@
 //跨域设置
 jQuery.ajaxSetup({
+	cache: false,
 	timeout: 6000,
 	xhrFields: {
 		withCredentials: true
